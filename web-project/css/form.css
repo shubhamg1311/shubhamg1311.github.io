@@ -1,0 +1,38 @@
+input[type=text]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    color: white;
+}
+input[type=submit]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: green;
+    color: floralwhite;
+    margin: 4px 2px;
+    border=none;
+    text-decoration:none;
+    cursor: pointer;
+    
+}
+input[type=number]{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: cadetblue;
+  color:white;
+
+}
+select{
+    width:20%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: cadetblue;
+    color:white;
+}

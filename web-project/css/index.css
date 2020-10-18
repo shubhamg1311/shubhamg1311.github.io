@@ -1,0 +1,270 @@
+* {
+	box-sizing: border-box;
+}
+
+body,html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#loader {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 50;
+}
+
+#outer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 14rem;
+	width: 14rem;
+	border-left: 3px solid blue;
+	border-radius: 50%;
+	animation-name: loader;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+#middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 13rem;
+	width: 13rem;
+	border-top: 3px solid yellow;
+	border-radius: 50%;
+	animation-name: loader;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+#inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 12rem;
+	width: 12rem;
+	border-right: 3px solid red;
+	border-radius: 50%;
+	animation-name: loader;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes loader {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.background {
+	background: url("../img/index-bg.png") no-repeat center center/cover;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.4;
+	z-index: -1;
+}
+
+.header {
+	text-align: center;
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+	padding: 5px;
+	vertical-align: middle;
+}
+img{
+	vertical-align: middle;
+	width: 90px;
+	height: 90px;
+}
+
+#nav {
+	margin-top: 4px;
+	background-color: black;
+	color:white;
+	position: sticky;
+	top: 1px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid black;
+	padding: 5px;
+	align-items: center;
+	font-family: Arial;
+	font-size: larger;
+}
+
+.list {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+}
+
+.listitems {
+	padding: 4px;
+}
+
+a {
+	text-decoration: none;
+	color:cyan;
+	margin-right: 10px;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.listitems:hover {
+	background-color: #61616182
+}
+
+#search {
+	border: 2px solid black;
+	padding: 4px;
+
+}
+
+#search input {
+	background-color: #cfd0d0;
+	border-color: #a7a7a7;
+	box-shadow: none;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 10px;
+	width: 90%;
+	margin: 25px  auto;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+	transition-property: all;
+}
+
+.container:hover {
+	border: 2px solid black;
+	width: 95%;
+	margin: 30px auto;
+	background-color: rgba(224,224,224,0.5);
+}
+
+.container a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.image {
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	border: 2px solid black;
+}
+
+.discription {
+	display: inline-block;
+	width: 70%;
+	height: 100%;
+}
+
+#footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	color: white;
+}
+
+#active {
+	text-decoration: underline;
+}
+
+button {
+	cursor: pointer;
+}
+
+#donate-btn {
+	display: flex;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	bottom: 30px;
+	right: 30px;
+	z-index: 1;
+	opacity: 0.15;
+	height: 60px;
+	width: 160px;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+}
+
+#donate-btn:hover {
+	opacity: 1;
+}
+
+.heading {
+	text-align: center;
+}
+
+  input[type=text]{
+      width: 40%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      background-color: cadetblue;
+      color: white;
+  }
+  input[type=submit]{
+      width: 30%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      background-color: green;
+      color: floralwhite;
+      margin: 4px 2px;
+      border=none;
+      text-decoration:none;
+      cursor: pointer;
+      
+  }
+  input[type=number]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    color:white;
+
+  }
+  select{
+      width:20%;
+      padding: 12px 15px;
+      border: none;
+      border-radius: 4px;
+      background-color: cadetblue;
+      color:white;
+  }
+
+  
