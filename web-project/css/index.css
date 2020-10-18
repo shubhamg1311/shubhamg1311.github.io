@@ -144,6 +144,8 @@ a:hover {
 	background-color: #cfd0d0;
 	border-color: #a7a7a7;
 	box-shadow: none;
+	width:30px;
+	height:20px;
 }
 
 .container {
