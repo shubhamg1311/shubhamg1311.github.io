@@ -262,9 +262,10 @@ button {
       color:white;
   }
  .footicon{
-	  height: 30vh;
+	  height: 20vh;
 	   display:flex;
 	   justify-content: center;
+	   padding: bottom 10px;
 	  }
 
  .footicon a{
