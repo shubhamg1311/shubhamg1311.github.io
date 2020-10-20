@@ -263,7 +263,7 @@ button {
   }
  .footicon{
 	  height: 80vh;
-	   display: flex;
+	   display:grid;
 	   justify-content: center;
 	  }
 
