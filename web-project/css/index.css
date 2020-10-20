@@ -268,5 +268,43 @@ button {
       background-color: cadetblue;
       color:white;
   }
+ .footicon{
+	  height: 80vh;
+	   display: flex;
+	   justify-content: center;
+	   align-items: center;
+
+  }
+
+ .footicon a{
+	 height: 80px;
+	 width: 80px;
+	 border-radius: 50%;
+	 background-color: #c9d3fc;
+	 text-align: center;
+	 margin: 15px;
+	 line-height: 80px;
+	 box-shadow: 1px 4px 2px 2px #dcdde1 ;
+	
+  }
+
+  .footicon a i{
+	  transition: all 0.3s linear;
+  }
+  .footicon a:hover i{
+	  transform: scale(1.4);
+  }
+  .fa-facebook{
+	color: #3b5998;
+  }
+  .fa-twitter{
+	  color:#00aced ;
+  }
+ .fa-instagram{
+	 color: #517fa4;
+ }
+ .fa-linkedin{
+	 color:#007bb6 ;
+ }
 
   
