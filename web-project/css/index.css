@@ -265,7 +265,8 @@ button {
 	  height: 20vh;
 	   display:flex;
 	   justify-content: center;
-	   padding: bottom 10px;
+	   align-items: center;
+	   
 	  }
 
  .footicon a{
